@@ -11,13 +11,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        /**
-
-        * Call your functions here!
-
-        */
+        print(fahrenheitFromCelsius(15.6))
+        print(celsiusFromFahrenheit(50))
+        print(kilometersFromMiles(3))
+        print(milesFromKilometers(2))
         
-        // do not alter
+        
         return true  //
     }   ///////////////
 }       ///////////////
